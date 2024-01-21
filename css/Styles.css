@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #87CEEB; /* Sky Blue */
+}
+
+.home {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.roof {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 80px solid #8B4513; /* Saddle Brown */
+}
+
+.walls {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #FFD700; /* Gold */
+}
+
+.door {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 90px;
+    background-color: #8B4513; /* Saddle Brown */
+}
+
+.window {
+    position: absolute;
+    top: 30px;
+    left: 20%;
+    width: 60px;
+    height: 60px;
+    background-color: #ADD8E6; /* Light Blue */
+    border: 5px solid #000;
+}
